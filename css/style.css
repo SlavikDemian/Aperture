@@ -244,3 +244,144 @@ header nav ul li:last-of-type a{
     border-radius: 50%;
     margin: 5px 6px 5px 4px;
 }
+
+/*What_we_do*/
+
+.what_we_do {
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 84px;
+
+}
+
+.what_we_do_container {
+    max-width: 1168px;
+    margin: auto;
+
+}
+.what_we_do h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+
+}
+.what_we_do h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what_we_do .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.what_we_do .cards article {
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+
+}
+.what_we_do .cards article img {
+    display: block;
+    width: 100%;
+
+}
+.what_we_do .description h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.what_we_do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
+
+.what_we_do .description a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 154px;
+
+}
+.what_we_do .description a::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: black;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px 6px 5px 4px;
+}
+
+
+/*Past clients*/
+
+.past_clients {
+    padding-top: 113px;
+    padding-bottom: 140px;
+    background: #000000;
+}
+.past_clients div {
+    max-width: 1076px;
+    margin: auto;
+}
+.past_clients div h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients div h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.past_clients_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
