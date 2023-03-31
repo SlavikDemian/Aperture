@@ -568,6 +568,8 @@ header nav ul li:last-of-type a{
 
 
 
+/* footer box second */
+
 
 
 .footer_box_second {
@@ -605,7 +607,7 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 0px;
+    right: 0;
     bottom: 40px;
 }
 .footer_box_second .rectangle:before{
@@ -618,6 +620,8 @@ header nav ul li:last-of-type a{
 }
 
 
+
+/* footer box third */
 
 
 .footer_box_third {
