@@ -530,7 +530,7 @@ header nav ul li:last-of-type a{
     padding-bottom: 20px;
 }
 .footer .container .footer_logo p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -541,7 +541,7 @@ header nav ul li:last-of-type a{
     display: flex;
 }
 .footer .footer_block_list h4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -552,7 +552,7 @@ header nav ul li:last-of-type a{
     padding-bottom: 10px;
 }
 .footer .footer_block_list a {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -577,7 +577,7 @@ header nav ul li:last-of-type a{
     position: relative;
 }
 .footer_box_second h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -588,7 +588,7 @@ header nav ul li:last-of-type a{
     margin-top: 36px;
 }
 .footer_box_second p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -624,7 +624,7 @@ header nav ul li:last-of-type a{
     display: flex;
 }
 .footer_box_third p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
