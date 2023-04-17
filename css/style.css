@@ -655,7 +655,7 @@ footer .container:nth-child(3) p a{
 
 .shake {
     width: 100px;
-    height: 300px;
+    height: 150px;
     background-color: red;
     position: absolute;
     z-index: 10;
