@@ -360,7 +360,7 @@ header nav ul li:last-of-type a{
     padding-bottom: 140px;
     background: #000000;
 }
-.past_clients div {
+.past_clients .past_clients_box {
     max-width: 1076px;
     margin: auto;
 }
@@ -386,6 +386,10 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.past_clients_icons a {
+    max-width: 128px;
+    display: inline-block;
 }
 
 /* bottom ICONS */
@@ -661,4 +665,11 @@ footer .container:nth-child(3) p a{
     z-index: 10;
     animation: shake infinite 8s;
 
+}
+
+/* JS */
+
+.owl-stage {
+    display: flex;
+    align-items: center;
 }
