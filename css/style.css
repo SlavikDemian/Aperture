@@ -633,27 +633,52 @@ footer .container:nth-child(3) p a{
     10%{
         left: 3%;
         top: 2%;
-        transform: rotate(90deg);
+        transform: rotate(20deg);
     }
-    30%{
+    20%{
         left: 6%;
         top: 4%;
-        transform: rotate(120deg);
+        transform: rotate(40deg);
+    }
+    30%{
+        left: 9%;
+        top: 8%;
+        transform: rotate(60deg);
+    }
+    40%{
+        left: 15%;
+        top: 12%;
+        transform: rotate(90deg);
     }
     50%{
-        left: 8%;
-        top: 8%;
-        transform: rotate(180deg);
+        left: 18%;
+        top: 15%;
+        transform: rotate(120deg);
+    }
+    60%{
+        left: 21%;
+        top: 18%;
+        transform: rotate(160deg);
     }
     70%{
-        left: 10%;
-        top: 12%;
+        left: 25%;
+        top: 20%;
+        transform: rotate(200deg);
+    }
+    80%{
+        left: 27%;
+        top: 23%;
+        transform: rotate(240deg);
+    }
+    90%{
+        left: 30%;
+        top: 25%;
         transform: rotate(260deg);
     }
     100%{
-        left: 14%;
-        top: 18%;
-        transform: rotate(360deg);
+        left: 33%;
+        top: 27%;
+        transform: rotate(300deg);
     }
 }
 
@@ -663,7 +688,7 @@ footer .container:nth-child(3) p a{
     background-color: red;
     position: absolute;
     z-index: 10;
-    animation: shake infinite 8s;
+    animation: shake infinite 14s;
 
 }
 
@@ -672,4 +697,85 @@ footer .container:nth-child(3) p a{
 .owl-stage {
     display: flex;
     align-items: center;
+}
+.faq {
+    background-color: black;
+    padding: 50px 0;
+}
+.faq .container {
+    max-width: 1168px;
+    margin: auto;
+}
+.faq .ui-accordion .ui-accordion-header {
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 0;
+    padding: 20px;
+}
+.faq .ui-accordion .ui-accordion-content {
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 0;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    border-bottom: none;
+}
+.faq .ui-accordion .ui-accordion-content.ui-accordion-content-active{
+    border-top: none;
+}
+.faq .ui-accordion .ui-icon {
+    background-image: none;
+    text-indent: 0;
+    background-position: inherit;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right: 20px;
+    top: 23px;
+}
+.faq .ui-accordion .ui-icon:before {
+    content: "\f054";
+    color: white;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
+    rotate: 90deg;
+    transition: 0.8s;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: -70px;
+    top: 25px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 30px;
+}
+.owl-carousel .owl-nav button.owl-prev:before {
+    content: "\f177";
+    color: white;
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+    text-shadow: 5px 0px 5px white;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -70px;
+    top: 25px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 30px;
+}
+.owl-carousel .owl-nav button.owl-next:before {
+    content: "\f178";
+    color: white;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+    text-shadow: -5px 0px 5px white;
 }
