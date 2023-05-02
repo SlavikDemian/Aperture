@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "reset.css";
+@import "normalize.css";
+@import "mobile_menu.css";
+@import "style.css";
+header {
+  background-color: #181818;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 32px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header nav ul li {
+  margin-left: 32px;
+}
+header nav ul li:first-of-type {
+  margin-right: 24px;
+}
+header nav ul li:first-of-type a {
+  font-size: 13px;
+}
+header nav ul li:last-of-type {
+  margin-left: 31px;
+}
+header nav ul li:last-of-type a {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 11px 20px;
+  font-size: 16px;
+  color: #181818;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/*main banner*/
+.main_banner {
+  background-image: url("../images/IMAGE.jpg");
+  background-size: cover;
+  height: calc(100vh - 83px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main_banner article {
+  max-width: 580px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_banner article h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+.main_banner article h1 {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.main_banner article p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+/*# sourceMappingURL=preproc.css.map */

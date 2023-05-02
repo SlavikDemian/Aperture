@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "reset.css";
+@import "normalize.css";
+@import "mobile_menu.css";
+@import "style.css";
+
+
+
+$main_font: 'Poppins', sans-serif;
+$black_color: #181818;
+$waite_color: #FFFFFF;
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+header {
+  background-color: $black_color;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  .container { max-width: 1200px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      li {
+        margin-left: 32px;
+        &:first-of-type {
+          margin-right: 24px;
+          a {
+            font-size: 13px;
+          }
+        }
+        &:last-of-type {
+          margin-left: 31px;
+          a {
+            background: $waite_color;
+            border-radius: 14px;
+            padding: 11px 20px;
+            font-size: 16px;
+            color: $black_color;
+          }
+        }
+        a {
+          text-decoration: none;
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          color: $waite_color;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+/*main banner*/
+
+.main_banner {
+  background-image: url("../images/IMAGE.jpg");
+  background-size: cover;
+  height: calc(100vh - 83px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+.main_banner article {
+  max-width: 580px;
+  text-align: center;
+  font-family: $main_font;
+
+}
+
+.main_banner article h3{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+.main_banner article h1{
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: $waite_color;
+  margin-bottom: 18px;
+}
+.main_banner article p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
